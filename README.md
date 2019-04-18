@@ -16,6 +16,10 @@ Start Date: 4/18/19
 * Registered plants have a type
 * Registered plants have a plant-date
 
+### Integrated Testing
+* Integrate Jest
+* Test-driven development
+
 ## Potential Features
 * Create a drag and drop garden layout
 * Pull plant information so that tool can estimate harvest dates
