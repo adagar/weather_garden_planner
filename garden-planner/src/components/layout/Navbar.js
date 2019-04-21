@@ -7,13 +7,11 @@ const NavBar = () => {
   return (
     <nav className="nav-wrapper green darken-3">
       <div className="container">
-        <BrowserRouter>
-          <Link to="/" className="brand-logo">
-            Garden Planner
-          </Link>
-          <SignedInLinks />
-          <SignedOutLinks />
-        </BrowserRouter>
+        <Link to="/" className="brand-logo">
+          Garden Planner
+        </Link>
+        <SignedInLinks />
+        <SignedOutLinks />
       </div>
     </nav>
   );
